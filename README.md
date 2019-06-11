@@ -6,6 +6,9 @@ The paper is as follow:
 [A Deep Transfer Model With Wasserstein Distance Guided Multi-Adversarial Networks for Bearing Fault Diagnosis Under Different Working Conditions](https://ieeexplore.ieee.org/document/8713860)
 
 # Citation
+
+If you use this code and datasets for your research, please consider citing:
+
 ```
 @ARTICLE{8713860, 
 author={M. {Zhang} and D. {Wang} and W. {Lu} and J. {Yang} and Z. {Li} and B. {Liang}}, 
