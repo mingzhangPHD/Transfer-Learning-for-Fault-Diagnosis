@@ -1,0 +1,2 @@
+idx	Train_S	Test_S	All_S	Train_T	Test_T	All_T	Train_T_10	Test_T_10	All_T_10	Other1	Other2
+0	0.25	0.25	0.25	0.25	0.25	0.25	[0.0, 0.0, 0.0, 1.0]	[0.0, 0.0, 0.0, 1.0]	[0.0, 0.0, 0.0, 1.0]	0.002061	0.000120683
