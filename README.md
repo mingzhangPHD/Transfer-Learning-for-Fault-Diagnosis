@@ -1,4 +1,5 @@
-# Transfer-Learning-for-Fault-Diagnosis (基于迁移学习的故障诊断方法研究)
+# Transfer-Learning-for-Fault-Diagnosis 
+# (基于迁移学习的故障诊断方法研究)
 This repository is for the transfer learning or domain adaptive with fault diagnosis. 
 
 The paper is as follow:
