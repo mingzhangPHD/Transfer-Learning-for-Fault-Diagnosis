@@ -30,4 +30,4 @@ If you have any problem about our code, feel free to contact:
 
 zhangming_0706@163.com
 
-or discribe your problem in issues
+or describe your problem in issues
