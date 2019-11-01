@@ -1,5 +1,7 @@
 # Transfer Learning for Fault Diagnosis 
 # 迁移学习 故障诊断 深度神经网络
+# More works will be opened soon!!! Thank you for your attention
+
 This repository is for the transfer learning or domain adaptive with fault diagnosis. 
 
 The paper is as follow:
