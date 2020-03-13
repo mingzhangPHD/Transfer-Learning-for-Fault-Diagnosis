@@ -6,6 +6,8 @@ This repository is for the transfer learning or domain adaptive with fault diagn
 
 The paper is as follow:
 
+[Domain Adaptation with Multilayer Adversarial Learning for Fault Diagnosis of Gearbox under Multiple Operating Conditions](https://ieeexplore.ieee.org/abstract/document/8943056)
+
 [A Deep Transfer Model With Wasserstein Distance Guided Multi-Adversarial Networks for Bearing Fault Diagnosis Under Different Working Conditions](https://ieeexplore.ieee.org/document/8713860)
 
 [Research on variational mode decomposition in rolling bearings fault diagnosis of the multistage centrifugal pump](https://www.sciencedirect.com/science/article/pii/S0888327017300754)
@@ -13,6 +15,17 @@ The paper is as follow:
 # Citation
 
 If you use this code and datasets for your research, please consider citing:
+
+```
+@inproceedings{zhang2019domain,
+  title={Domain Adaptation with Multilayer Adversarial Learning for Fault Diagnosis of Gearbox under Multiple Operating Conditions},
+  author={Zhang, Ming and Lu, Weining and Yang, Jun and Wang, Duo and Bin, Liang},
+  booktitle={2019 Prognostics and System Health Management Conference (PHM-Qingdao)},
+  pages={1--6},
+  year={2019},
+  organization={IEEE}
+}
+```
 
 ```
 @ARTICLE{8713860, 
