@@ -19,7 +19,9 @@ you can pip or conda the toolkits in the requestments.txt
 or run pip install -r requirements.txt
 
 Issues:
-"Load failed" is a note, not a bug, you can run this code normally.
+  1. "Load failed" is a note, not a bug, you can run this code normally.
+  2. The "TypeError: can't pickle FlagValues" problem has been solved.
+
 
 # Citation
 
