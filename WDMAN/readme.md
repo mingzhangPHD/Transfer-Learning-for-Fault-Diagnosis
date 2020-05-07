@@ -13,6 +13,8 @@ For better understanding, we run an example. The accuracy curve is shown as foll
 
 The WD distance during the transfer period is presented as follows:
 
+![WD](https://github.com/mingzhangPHD/Transfer-Learning-for-Fault-Diagnosis/blob/master/WDMAN/results/WDMAN_X/CaseDE12K_dataset_0_nx1200_class10__1_nx1200_class10/RecordWD.jpeg)
+
 Requestments:
 you can pip or conda the toolkits in the requestments.txt
 or run pip install -r requirements.txt
