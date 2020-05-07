@@ -1,7 +1,6 @@
 The detail of MAAN can be find in the following paper.
 
-[Domain Adaptation with Multilayer Adversarial Learning for Fault Diagnosis of Gearbox under Multiple Operating Conditions]
-(https://ieeexplore.ieee.org/abstract/document/8943056)
+[Domain Adaptation with Multilayer Adversarial Learning for Fault Diagnosis of Gearbox under Multiple Operating Conditions](https://ieeexplore.ieee.org/abstract/document/8943056)
 
 The datasets used in this paper can be download by 
 https://drive.google.com/open?id=1439Bb73K6k7qT226D5odlzZzlNt1y04u
