@@ -36,7 +36,7 @@ month={},}
 
 For better understanding, we run an example. The accuracy curve is shown as follows:
 
-
+![accuracy](https://github.com/mingzhangPHD/Transfer-Learning-for-Fault-Diagnosis/blob/master/WDMAN/results/WDMAN_X/CaseDE12K_dataset_0_nx1200_class10__1_nx1200_class10/RecordAccuracy.jpeg)
 
 The WD distance during the transfer period is presented as follows:
 
