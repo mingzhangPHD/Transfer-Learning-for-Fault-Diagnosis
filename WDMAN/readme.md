@@ -1,8 +1,7 @@
 # Transfer Learning for Fault Diagnosis 
 The detail of WDMAN can be find in the following paper.
 
-[A Deep Transfer Model With Wasserstein Distance Guided Multi-Adversarial Networks for Bearing Fault Diagnosis Under Different Working Conditions]
-(https://ieeexplore.ieee.org/document/8713860)
+[A Deep Transfer Model With Wasserstein Distance Guided Multi-Adversarial Networks for Bearing Fault Diagnosis Under Different Working Conditions](https://ieeexplore.ieee.org/document/8713860)
 
 The datasets used in this paper can be download by 
 https://drive.google.com/open?id=1D-6edhtnyQ13P5F9QBJIFblFJkiU3Uiq
