@@ -385,7 +385,7 @@ class WDMAN(object):
             self.print_accuracy_s(self.data_s)
             self.print_accuracy_t(self.data_t)
         else:
-            print(" [!] Load failed...")
+            print(" [!] Load failed...(This is not a fault, the model will be load successfuly when there is a model be saved)")
 
         Epoch_C = config.epoch_pre
         counter = 0
