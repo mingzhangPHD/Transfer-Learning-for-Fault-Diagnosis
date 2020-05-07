@@ -327,12 +327,12 @@ class WDMAN(object):
         dc01_optim = tf.train.AdamOptimizer(lr, beta1=config.beta1) \
             .minimize(self.dc01_loss, var_list=self.dc01_vars)
         fc01_c_optim = tf.train.AdamOptimizer(config.learning_rate, beta1=config.beta1) \
-            .minimize(self.fc01_c_loss, var_list=self.self.fc_vars)
+            .minimize(self.fc01_c_loss, var_list=self.fc_vars)
 
         dc02_optim = tf.train.AdamOptimizer(lr, beta1=config.beta1) \
             .minimize(self.dc02_loss, var_list=self.dc02_vars)
         fc02_c_optim = tf.train.AdamOptimizer(config.learning_rate, beta1=config.beta1) \
-            .minimize(self.fc02_c_loss, var_list=self.self.fc_vars + self.c_vars)
+            .minimize(self.fc02_c_loss, var_list=self.fc_vars + self.c_vars)
 
         try:
             tf.global_variables_initializer().run()
@@ -890,12 +890,12 @@ class WDMAN(object):
         X_t_data = np.vstack((X_t_train, X_t_test))
         Y_t_data = np.vstack((Y_t_train, Y_t_test))
 
-        # wd01,wd02 = self.sess.run([self.wd_c01, self.wd_c02],
-        #                           feed_dict={self.X_s: X_s_test, self.Y_s: Y_s_test,
-        #                                      self.X_t: X_t_test, self.Y_t: Y_t_test})
         wd01,wd02 = self.sess.run([self.wd_c01, self.wd_c02],
-                                  feed_dict={self.X_s: X_s_data, self.Y_s: Y_s_data,
-                                             self.X_t: X_t_data, self.Y_t: Y_t_data})
+                                  feed_dict={self.X_s: X_s_test, self.Y_s: Y_s_test,
+                                             self.X_t: X_t_test, self.Y_t: Y_t_test})
+        # wd01,wd02 = self.sess.run([self.wd_c01, self.wd_c02],
+        #                           feed_dict={self.X_s: X_s_data, self.Y_s: Y_s_data,
+        #                                      self.X_t: X_t_data, self.Y_t: Y_t_data})
 
         return wd01, wd02
 
