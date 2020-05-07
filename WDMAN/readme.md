@@ -6,7 +6,7 @@ The detail of WDMAN can be find in the following paper.
 The datasets used in this paper can be download by 
 https://drive.google.com/open?id=1D-6edhtnyQ13P5F9QBJIFblFJkiU3Uiq
 
-For better understanding, we run an example. The accuracy curve is shown as follows:
+For better understanding, we run an example. The accuracy curve is shown as follows (The X-axis should be epoch times 10, Y-axis is the accuracy):
 
 ![accuracy](https://github.com/mingzhangPHD/Transfer-Learning-for-Fault-Diagnosis/blob/master/WDMAN/results/WDMAN_X/CaseDE12K_dataset_0_nx1200_class10__1_nx1200_class10/RecordAccuracy.jpeg)
 
