@@ -5,6 +5,8 @@ The detail of MAAN can be find in the following paper.
 The datasets used in this paper can be download by 
 https://drive.google.com/open?id=1439Bb73K6k7qT226D5odlzZzlNt1y04u
 
+Anyone with problems of runing this code, please see the "readme.md" in [WDMAN](https://github.com/mingzhangPHD/Transfer-Learning-for-Fault-Diagnosis/blob/master/WDMAN/readme.md)
+
 # Citation
 
 If you use this code and datasets for your research, please consider citing:
