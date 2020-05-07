@@ -7,6 +7,13 @@ The detail of WDMAN can be find in the following paper.
 The datasets used in this paper can be download by 
 https://drive.google.com/open?id=1D-6edhtnyQ13P5F9QBJIFblFJkiU3Uiq
 
+Requestments:
+you can pip or conda the toolkits in the requestments.txt
+or run pip install -r requirements.txt
+
+Issues:
+"Load failed" is a note, not a bug, you can run this code normally.
+
 # Citation
 
 If you use this code and datasets for your research, please consider citing:
@@ -26,6 +33,12 @@ ISSN={2169-3536},
 month={},}
 ```
 ```
+
+For better understanding, we run an example. The accuracy curve is shown as follows:
+
+
+
+The WD distance during the transfer period is presented as follows:
 
 
 
