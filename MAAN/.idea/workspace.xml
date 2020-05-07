@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7527b35f-ef58-4de8-887e-85df9900c8bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FD_DCTAN_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/FD_DCTAN_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MAAN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run_main_TAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_main_TAN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WDMAN/FD_DCTAN_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WDMAN/FD_DCTAN_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WDMAN/datasets/datesets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WDMAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WDMAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WDMAN/run_main_TAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WDMAN/run_main_TAN.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588819012943</updated>
       <workItem from="1588819014531" duration="6054000" />
+      <workItem from="1588836073602" duration="3510000" />
     </task>
     <servers />
   </component>
@@ -82,44 +89,59 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1478" height="390" key="GridCell.Tab.0.bottom" timestamp="1588829470673">
+    <state width="1478" height="166" key="GridCell.Tab.0.bottom" timestamp="1588839112623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="390" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588829470673" />
-    <state width="1478" height="390" key="GridCell.Tab.0.center" timestamp="1588829470673">
+    <state width="1478" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588839112623" />
+    <state width="1478" height="166" key="GridCell.Tab.0.center" timestamp="1588839112623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="390" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588829470673" />
-    <state width="1478" height="390" key="GridCell.Tab.0.left" timestamp="1588829470672">
+    <state width="1478" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588839112623" />
+    <state width="1478" height="166" key="GridCell.Tab.0.left" timestamp="1588839112623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="390" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588829470672" />
-    <state width="1478" height="390" key="GridCell.Tab.0.right" timestamp="1588829470673">
+    <state width="1478" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588839112623" />
+    <state width="1478" height="166" key="GridCell.Tab.0.right" timestamp="1588839112623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="390" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588829470673" />
-    <state width="1478" height="390" key="GridCell.Tab.1.bottom" timestamp="1588829470673">
+    <state width="1478" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588839112623" />
+    <state width="1478" height="166" key="GridCell.Tab.1.bottom" timestamp="1588839112623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="390" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588829470673" />
-    <state width="1478" height="390" key="GridCell.Tab.1.center" timestamp="1588829470673">
+    <state width="1478" height="166" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588839112623" />
+    <state width="1478" height="166" key="GridCell.Tab.1.center" timestamp="1588839112623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="390" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588829470673" />
-    <state width="1478" height="390" key="GridCell.Tab.1.left" timestamp="1588829470673">
+    <state width="1478" height="166" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588839112623" />
+    <state width="1478" height="166" key="GridCell.Tab.1.left" timestamp="1588839112623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="390" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588829470673" />
-    <state width="1478" height="390" key="GridCell.Tab.1.right" timestamp="1588829470673">
+    <state width="1478" height="166" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588839112623" />
+    <state width="1478" height="166" key="GridCell.Tab.1.right" timestamp="1588839112623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="390" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588829470673" />
+    <state width="1478" height="166" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588839112623" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1588819751166">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588819751166" />
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588837912928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1588837912928" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_main_TAN.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MAAN$run_main_TAN.coverage" NAME="run_main_TAN Coverage Results" MODIFIED="1588820847944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MAAN$run_main_TAN.coverage" NAME="run_main_TAN Coverage Results" MODIFIED="1588839068788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

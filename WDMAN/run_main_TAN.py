@@ -32,8 +32,12 @@ flags.DEFINE_boolean("sign_run_all", False, "True for visualizing, False for not
 global FLAGS
 FLAGS = flags.FLAGS
 
-def run():
+def run(data_names):
 
+    print(FLAGS.dataset_name_s)
+    print(FLAGS.dataset_name_t)
+    FLAGS.dataset_name_s = data_names[0]
+    FLAGS.dataset_name_t = data_names[1]
     print(FLAGS.dataset_name_s)
     print(FLAGS.dataset_name_t)
 
@@ -78,7 +82,8 @@ if __name__ == '__main__':
 
     if not sign_run_all:
 
-        p = Process(target=run)
+        data_names = [FLAGS.dataset_name_s, FLAGS.dataset_name_t]
+        p = Process(target=run, args=(data_names,))
         p.start()
         # end for the sub program, GPU will release
         p.join()
@@ -97,7 +102,9 @@ if __name__ == '__main__':
             FLAGS.dataset_name_t = d_n_t
             print(FLAGS.dataset_name_s)
             print(FLAGS.dataset_name_t)
-            p = Process(target=run, args=(FLAGS,))
+            # p = Process(target=run, args=(FLAGS,))
+            data_names = [d_n_s, d_n_t]
+            p = Process(target=run, args=(data_names,))
             p.start()
             # end for the sub program, GPU will release
             p.join()

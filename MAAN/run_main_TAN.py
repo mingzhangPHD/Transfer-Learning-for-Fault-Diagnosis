@@ -25,7 +25,8 @@ flags.DEFINE_string("x_type", "X_fft", "X_w, X_fft")
 
 flags.DEFINE_string("input_fname_pattern", ".h5", "Glob pattern of filename of input wave")
 flags.DEFINE_string("checkpoint_dir", "checkpoint", "Directory name to save the checkpoints [checkpoint]")
-flags.DEFINE_string("data_dir", "./datasets", "Root directory of dataset [data]")
+# flags.DEFINE_string("data_dir", "./datasets", "Root directory of dataset [data]")
+flags.DEFINE_string("data_dir", "E:/Algorithm_developing/github_zm/Datasets/Data4MAAN/datasets", "Root directory of dataset [data]")
 # flags.DEFINE_string("sample_dir", "samples", "Directory name to save the image samples [samples]")
 flags.DEFINE_boolean("train", True, "True for training, False for testing [False]")
 flags.DEFINE_boolean("crop", False, "True for training, False for testing [False]")
@@ -33,10 +34,16 @@ flags.DEFINE_boolean("visualize", False, "True for visualizing, False for nothin
 flags.DEFINE_boolean("run_all", False, "True for visualizing, False for nothing [False]")
 
 
+global FLAGS
 FLAGS = flags.FLAGS
 
-def run(FLAGS):
 
+def run(data_names):
+    # global FLAGS
+    print(FLAGS.dataset_name_s)
+    print(FLAGS.dataset_name_t)
+    FLAGS.dataset_name_s = data_names[0]
+    FLAGS.dataset_name_t = data_names[1]
     print(FLAGS.dataset_name_s)
     print(FLAGS.dataset_name_t)
 
@@ -90,11 +97,15 @@ def run(FLAGS):
 
 if __name__ == '__main__':
 
+
+
     sign_run_all = FLAGS.run_all
 
     if not sign_run_all:
         # tf.app.run()
-        p = Process(target=run, args=(FLAGS,))
+        # p = Process(target=run, args=(FLAGS,))
+        data_names = [FLAGS.dataset_name_s, FLAGS.dataset_name_t]
+        p = Process(target=run, args=(data_names,))
         p.start()
         # end for the sub program, GPU will release
         p.join()
@@ -113,14 +124,18 @@ if __name__ == '__main__':
                          'PHM2009_dataset_45Hz_H_helical_C3_1_out','PHM2009_dataset_50Hz_H_helical_C3_1_out']
 
 
+
         for d_n_s, d_n_t in zip(domain_name_s,domain_name_t):
+            # global FLAGS
             print(FLAGS.dataset_name_s)
             print(FLAGS.dataset_name_t)
             FLAGS.dataset_name_s = d_n_s
             FLAGS.dataset_name_t = d_n_t
             print(FLAGS.dataset_name_s)
             print(FLAGS.dataset_name_t)
-            p = Process(target=run, args=(FLAGS,))
+            # p = Process(target=run, args=(FLAGS,))
+            data_names = [d_n_s, d_n_t]
+            p = Process(target=run, args=(data_names,))
             p.start()
             # end for the sub program, GPU will release
             p.join()
