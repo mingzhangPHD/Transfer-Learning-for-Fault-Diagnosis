@@ -106,7 +106,7 @@ class WDMAN(object):
         self.batch_size = batch_size
         self.sample_num = sample_num
         self.epoch = 0
-        self.epochWriteThre = 1
+        self.epochWriteThre = 10
 
         self.y_dim = y_dim
         self.y = None
@@ -426,7 +426,7 @@ class WDMAN(object):
                 self.writer.add_summary(summary_str_acc_t, counter)
                 # epoch_C_cost.append(cost)
 
-                if epoch % 1 == 0:
+                if epoch % self.epochWriteThre == 0:
                     print("Epoch_Fs_C_net: [%2d/%2d], c_loss: %.8f" \
                           % (epoch, Epoch_C, cost))
                     # print calssifier result
