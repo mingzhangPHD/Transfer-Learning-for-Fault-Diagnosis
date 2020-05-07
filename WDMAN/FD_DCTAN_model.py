@@ -512,7 +512,7 @@ class WDMAN(object):
                 self.updataAccuracy(r_s, r_t)
                 self.updataWD(wd_s_t)
 
-            if epoch % 500 == 0:
+            if epoch % 100 == 0:
                 self.plotAccuracy4check()
                 self.plotWD4check()
 

@@ -7,7 +7,7 @@ from multiprocessing import Process
 
 flags = tf.app.flags
 flags.DEFINE_integer("epoch", 20000, "Epoch to train ")
-flags.DEFINE_integer("epoch_pre", 2000, "Epoch to pre_train ")
+flags.DEFINE_integer("epoch_pre", 1500, "Epoch to pre_train ")
 flags.DEFINE_float("learning_rate", 0.0001, "Learning rate of for adam [0.0002]")
 flags.DEFINE_float("beta1", 0.5, "Momentum term of adam [0.5]")
 flags.DEFINE_float("train_size", np.inf, "The size of train images [np.inf]")
@@ -22,7 +22,8 @@ flags.DEFINE_string("x_type", "X", "X")
 
 flags.DEFINE_string("input_fname_pattern", ".h5", "Glob pattern of filename of input wave")
 flags.DEFINE_string("checkpoint_dir", "checkpoint", "Directory name to save the checkpoints [checkpoint]")
-flags.DEFINE_string("data_dir", "./datasets", "Root directory of dataset [data]")
+# flags.DEFINE_string("data_dir", "./datasets", "Root directory of dataset [data]")
+flags.DEFINE_string("data_dir", "E:/Algorithm_developing/github_zm/Datasets/Data4WDMAN/datasets", "Root directory of dataset [data]")
 flags.DEFINE_boolean("train", True, "True for training, False for testing [False]")
 flags.DEFINE_boolean("crop", False, "True for training, False for testing [False]")
 flags.DEFINE_boolean("visualize", False, "True for visualizing, False for nothing [False]")
