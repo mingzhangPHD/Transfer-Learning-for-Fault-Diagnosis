@@ -3,8 +3,13 @@ The detail of WDMAN can be find in the following paper.
 
 [A Deep Transfer Model With Wasserstein Distance Guided Multi-Adversarial Networks for Bearing Fault Diagnosis Under Different Working Conditions](https://ieeexplore.ieee.org/document/8713860)
 
-The datasets used in this paper can be download by 
+The datasets used in this paper can be download by https://data.mendeley.com/datasets/ykbc8hntzx/1
+
+or
+
 https://drive.google.com/open?id=1D-6edhtnyQ13P5F9QBJIFblFJkiU3Uiq
+
+
 
 For better understanding, we run an example. The accuracy curve is shown as follows (The X-axis should be epoch times 10, Y-axis is the accuracy):
 
