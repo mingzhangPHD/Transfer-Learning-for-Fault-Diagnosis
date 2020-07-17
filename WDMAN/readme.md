@@ -9,6 +9,15 @@ or
 
 https://drive.google.com/open?id=1D-6edhtnyQ13P5F9QBJIFblFJkiU3Uiq
 
+"run_main_TAN.py" is the main program, you can run this text by:
+```
+python run_main_TAN.py
+```
+
+or you can change the paremeter and run:
+```
+python run_main_TAN.py --epoch 10000 learning_rate 0.001
+```
 
 
 For better understanding, we run an example. The accuracy curve is shown as follows (The X-axis should be epoch times 10, Y-axis is the accuracy):
@@ -45,7 +54,6 @@ keywords={Fault diagnosis;Rolling bearings;Data models;Wavelength division multi
 doi={10.1109/ACCESS.2019.2916935}, 
 ISSN={2169-3536}, 
 month={},}
-```
 ```
 
 
