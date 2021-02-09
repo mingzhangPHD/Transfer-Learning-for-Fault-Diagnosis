@@ -5,6 +5,8 @@ The detail of MAAN can be find in the following paper.
 The datasets used in this paper can be download by 
 https://drive.google.com/open?id=1439Bb73K6k7qT226D5odlzZzlNt1y04u
 
+or by the link of Mendeley [Gearbox Dateset for Transfer Learning Fault Diagnosis](https://data.mendeley.com/datasets/6p5y7rgzjz/1)
+
 Anyone with problems of runing this code, please see the "readme.md" in [WDMAN](https://github.com/mingzhangPHD/Transfer-Learning-for-Fault-Diagnosis/blob/master/WDMAN/readme.md)
 
 # Citation
