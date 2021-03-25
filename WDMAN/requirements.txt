@@ -49,7 +49,7 @@ pyreadline==2.1
 python-dateutil==2.8.0
 python-utils==2.3.0
 pytz==2019.3
-PyYAML==5.1.1
+PyYAML==5.4
 requests==2.22.0
 scikit-learn==0.22.2.post1
 scipy==1.2.1
