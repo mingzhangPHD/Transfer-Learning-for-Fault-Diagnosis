@@ -9,6 +9,9 @@ or by the link of Mendeley [Gearbox Dateset for Transfer Learning Fault Diagnosi
 
 Anyone with problems of runing this code, please see the "readme.md" in [WDMAN](https://github.com/mingzhangPHD/Transfer-Learning-for-Fault-Diagnosis/blob/master/WDMAN/readme.md)
 
+One can find the original link is as follow:
+https://www.phmsociety.org/competition/PHM/09/apparatus
+
 # Citation
 
 If you use this code and datasets for your research, please consider citing:
