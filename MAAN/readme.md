@@ -9,7 +9,7 @@ or by the link of Mendeley [Gearbox Dateset for Transfer Learning Fault Diagnosi
 
 Anyone with problems of runing this code, please see the "readme.md" in [WDMAN](https://github.com/mingzhangPHD/Transfer-Learning-for-Fault-Diagnosis/blob/master/WDMAN/readme.md)
 
-The detial descriptation and information can be found the original link is as follow:
+The original detial descriptation and information of the PHM2009 Competition can be found the original link is as follow:
 https://phmsociety.org/data-analysis-competition/
 
 # Citation
