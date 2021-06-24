@@ -12,6 +12,9 @@ Anyone with problems of runing this code, please see the "readme.md" in [WDMAN](
 The original detial descriptation and information of the PHM2009 Competition can be found the original link is as follow:
 https://phmsociety.org/data-analysis-competition/
 
+If the original data link is unavailable, one can download the original data in the following link:
+https://github.com/mingzhangPHD/Supplementary-Dataset/tree/main/PHM2009%20Gearbox/PHM_Society_2009_Competition_Expanded_txt
+
 # Citation
 
 If you use this code and datasets for your research, please consider citing:
