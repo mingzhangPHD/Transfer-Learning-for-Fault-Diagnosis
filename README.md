@@ -3,6 +3,8 @@
 
 This repository is for the transfer learning or domain adaptive with fault diagnosis. 
 
+It should be notice that we use the tensorflow 1.15. If one use the lastest tensorflow, there will be some errors.
+
 The paper is as follow:
 
 [Domain Adaptation with Multilayer Adversarial Learning for Fault Diagnosis of Gearbox under Multiple Operating Conditions](https://ieeexplore.ieee.org/abstract/document/8943056)
