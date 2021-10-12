@@ -34,7 +34,7 @@ mujoco-py==0.5.7
 numexpr==2.7.0
 numpy==1.16.4
 olefile==0.46
-opencv-python==4.1.0.25
+opencv-python==4.1.1.26
 pandas==0.25.2
 pathlib2==2.3.4
 patsy==0.5.1
