@@ -2,7 +2,7 @@ absl-py==0.7.1
 astor==0.7.1
 baselines==0.1.5
 Box2D==2.3.2
-certifi==2019.9.11
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 click==7.0
